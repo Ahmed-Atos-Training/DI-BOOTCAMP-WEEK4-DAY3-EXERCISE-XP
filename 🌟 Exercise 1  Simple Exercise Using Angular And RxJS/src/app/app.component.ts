@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'f';
+  title = 'Exercise_1_Simple_Exercise_Using_Angular_And_RxJS';
 }

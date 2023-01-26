@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "f": {
+    "Exercise_1_Simple_Exercise_Using_Angular_And_RxJS": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/f",
+            "outputPath": "dist/exercise-1-simple-exercise-using-angular-and-rx-js",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "f:build:production"
+              "browserTarget": "Exercise_1_Simple_Exercise_Using_Angular_And_RxJS:build:production"
             },
             "development": {
-              "browserTarget": "f:build:development"
+              "browserTarget": "Exercise_1_Simple_Exercise_Using_Angular_And_RxJS:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "f:build"
+            "browserTarget": "Exercise_1_Simple_Exercise_Using_Angular_And_RxJS:build"
           }
         },
         "test": {

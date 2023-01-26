@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "f": {
+    "Exercise_4_Angular_Services_And_Dependency_Injection": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/f",
+            "outputPath": "dist/exercise-4-angular-services-and-dependency-injection",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "f:build:production"
+              "browserTarget": "Exercise_4_Angular_Services_And_Dependency_Injection:build:production"
             },
             "development": {
-              "browserTarget": "f:build:development"
+              "browserTarget": "Exercise_4_Angular_Services_And_Dependency_Injection:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "f:build"
+            "browserTarget": "Exercise_4_Angular_Services_And_Dependency_Injection:build"
           }
         },
         "test": {

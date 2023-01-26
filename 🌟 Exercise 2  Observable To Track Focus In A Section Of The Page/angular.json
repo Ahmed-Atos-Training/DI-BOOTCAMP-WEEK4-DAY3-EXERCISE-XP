@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "f": {
+    "Exercise_2_Observable_To_Track_Focus_In_A_Section_Of_The_Page": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/f",
+            "outputPath": "dist/exercise-2-observable-to-track-focus-in-a-section-of-the-page",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "f:build:production"
+              "browserTarget": "Exercise_2_Observable_To_Track_Focus_In_A_Section_Of_The_Page:build:production"
             },
             "development": {
-              "browserTarget": "f:build:development"
+              "browserTarget": "Exercise_2_Observable_To_Track_Focus_In_A_Section_Of_The_Page:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "f:build"
+            "browserTarget": "Exercise_2_Observable_To_Track_Focus_In_A_Section_Of_The_Page:build"
           }
         },
         "test": {

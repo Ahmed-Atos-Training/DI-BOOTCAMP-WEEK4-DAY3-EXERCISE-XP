@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FocusSectionComponent } from './focus-section/focus-section.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FocusSectionComponent
   ],
   imports: [
     BrowserModule,
